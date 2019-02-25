@@ -1,13 +1,15 @@
 "use strict";
 const cartItems = {
     template:  `
-    <p> Shopping Cart Items </p>
-    <section ng-repeat="item in $ctrl.shoppingCart track by $index">
-    <p> Id:  {{item.id}} </p>
-    <p> Product:  {{item.product}} </p>
-    <p> Price:  {{item.price}} </p>
-    <p> Quantity:  {{item.quantity}} </p>
+    <p class="title"> Shopping Cart Items </p>
+    <div class="cardcontainer">
+    <section class="card" ng-repeat="item in $ctrl.shoppingCart track by $index">
+    <p class= "id"> Id:  {{item.id}} </p>
+    <p class= "product"> Product:  {{item.product}} </p>
+    <p class= "price"> Price:  {{item.price}} </p>
+    <p class="quantity"> Quantity:  {{item.quantity}} </p>
     </section>
+    </div>
     `,
 
 

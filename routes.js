@@ -6,13 +6,13 @@ const cartItems = express.Router();
 const shoppingCart = [
     {
         id:'1',
-        product: "Apple",
+        product: "Apples",
         price: "3",
         quantity: "2"
     },
     {
         id:'2',
-        product: "Banana",
+        product: "Bananas",
         price: "2",
         quantity: "4"
     },
@@ -26,7 +26,7 @@ const shoppingCart = [
         id:'4',
         product: "Blueberries",
         price: "6",
-        quantity: "2"
+        quantity: "5"
     }
  
 ];
